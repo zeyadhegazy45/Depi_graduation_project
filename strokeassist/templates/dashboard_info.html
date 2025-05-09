@@ -1,0 +1,108 @@
+{% extends "base.html" %}
+
+{% block title %}Dashboard Information{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 mx-auto text-center">
+            <div class="card shadow mt-5">
+                <div class="card-body">
+                    <h1 class="card-title mb-4">
+                        <i class="fas fa-chart-line text-primary"></i> Stroke Data Dashboard
+                    </h1>
+                    
+                    <div class="mb-4">
+                        <p class="lead">
+                            The Stroke Data Dashboard is an interactive tool that visualizes stroke data patterns and risk factors.
+                        </p>
+                        <p>
+                            The dashboard is built with Streamlit and provides detailed analysis of demographic trends, 
+                            risk factors, and model insights.
+                        </p>
+                    </div>
+                    
+                    <hr>
+                    
+                    <div class="mt-4">
+                        <h4>Launch the Dashboard</h4>
+                        <p>
+                            To start the dashboard, run the following command in your terminal:
+                        </p>
+                        <div class="bg-light p-3 rounded text-start">
+                            <code>streamlit run streamlit_dashboard.py</code>
+                        </div>
+                        <div class="d-grid gap-2 col-md-6 mx-auto mt-4">
+                            <a href="http://localhost:8501" target="_blank" class="btn btn-primary btn-lg">
+                                <i class="fas fa-external-link-alt"></i> Open Dashboard
+                            </a>
+                        </div>
+                        <p class="text-muted mt-3">
+                            <small>The dashboard will open at <code>http://localhost:8501</code> by default.</small>
+                        </p>
+                    </div>
+                    
+                    <hr>
+                    
+                    <div class="row mt-4">
+                        <div class="col-md-6">
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        <i class="fas fa-search"></i> Data Exploration
+                                    </h5>
+                                    <p class="card-text">
+                                        Explore stroke dataset statistics, demographic distribution, and key metrics.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        <i class="fas fa-chart-bar"></i> Risk Factor Analysis
+                                    </h5>
+                                    <p class="card-text">
+                                        Visualize how different factors correlate with stroke risk.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        <i class="fas fa-brain"></i> Model Insights
+                                    </h5>
+                                    <p class="card-text">
+                                        Understand what features influence the model predictions the most.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        <i class="fas fa-calculator"></i> Interactive Risk Calculator
+                                    </h5>
+                                    <p class="card-text">
+                                        Explore how different factors affect stroke risk prediction.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-4">
+                        <a href="/" class="btn btn-outline-secondary">
+                            <i class="fas fa-arrow-left"></i> Back to Prediction Tool
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
