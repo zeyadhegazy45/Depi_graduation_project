@@ -11,9 +11,22 @@ A comprehensive web application for stroke prediction using a machine learning m
 
 ## 📁 Project Structure
 
-
 stroke-prediction-app/
-<pre><code>## 📁 Project Structure ``` stroke-prediction-app/ ├── app.py # Main Flask application ├── final.py # Stroke prediction using PyCaret ├── model.py # Model loading and prediction logic ├── chatbot.py # Chatbot functionality ├── streamlit_dashboard.py # Streamlit dashboard ├── best_lr.pkl # Pre-trained model (not included in repo) ├── requirements.txt # Python dependencies ├── static/ │ ├── css/ │ │ └── style.css # Custom styles │ └── js/ │ └── script.js # JavaScript for UI interactions └── templates/ ├── base.html # Base template with common elements └── index.html # Main application page ``` </code></pre>
+├── app.py # Main Flask application
+├── final.py # Stroke prediction using PyCaret
+├── model.py # Model loading and prediction logic
+├── chatbot.py # Chatbot functionality
+├── streamlit_dashboard.py # Streamlit dashboard
+├── best_lr.pkl # Pre-trained model (not included in repo)
+├── requirements.txt # Python dependencies
+├── static/
+│ ├── css/
+│ │ └── style.css # Custom styles
+│ └── js/
+│ └── script.js # JavaScript for UI interactions
+└── templates/
+├── base.html # Base template with common elements
+└── index.html # Main application page
 
 
 
